@@ -1,5 +1,5 @@
 <template>
-  <header class="container bg-red-500 py-4">
+  <header class="container mx-auto bg-red-500 py-4">
     <nav class="grid grid-cols-2 place-items-center">
       <div>
         <h2 class="text-2xl font-semibold text-gray-100">Vue Apps</h2>

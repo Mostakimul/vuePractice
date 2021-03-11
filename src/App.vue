@@ -1,19 +1,22 @@
 <template>
   <app-header></app-header>
-  <div class="w-full flex">
+  <!-- <div class="w-full flex">
     <div class="m-auto">
       <dc-heros></dc-heros>
     </div>
-  </div>
+  </div> -->
+  <calender></calender>
 </template>
 
 <script>
-import DcHeros from "./components/DcHeros.vue";
+// import DcHeros from "./components/DcHeros.vue";
 import AppHeader from "./components/AppHeader.vue";
+import Calender from "./components/Calender.vue";
 export default {
   components: {
-    DcHeros,
+    // DcHeros,
     AppHeader,
+    Calender,
   },
 
   data() {
