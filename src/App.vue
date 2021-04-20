@@ -1,25 +1,25 @@
 <template>
-    <TheHeader />
-    <router-view></router-view>
+  <TheHeader />
+  <router-view></router-view>
 </template>
 
 <script>
 // import DcHeros from "./components/DcHeros.vue";
-import TheHeader from './components/TheHeader.vue'
+import TheHeader from './components/TheHeader.vue';
 // import Calender from './components/Calender.vue'
 export default {
-    components: {
-        // DcHeros,
-        TheHeader,
-        // Calender,
-    },
+  components: {
+    // DcHeros,
+    TheHeader,
+    // Calender,
+  },
 
-    data() {
-        return {
-            title: 'Vue 3 Title',
-        }
-    },
-}
+  data() {
+    return {
+      title: 'Vue 3 Title',
+    };
+  },
+};
 </script>
 
 <style>
